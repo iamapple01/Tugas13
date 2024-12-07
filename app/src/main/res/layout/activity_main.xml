@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/darkblue"
+    android:padding="16dp">
+
+    <!-- Header -->
+    <TextView
+        android:id="@+id/headerTitle"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DATA PEMILIH SAAT INI"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:padding="8dp" />
+
+    <!-- RecyclerView untuk daftar data -->
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <!-- Tombol Tambah Data -->
+    <Button
+        android:id="@+id/btnTambahData"
+        android:backgroundTint="@color/orange"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tambah Data" />
+
+    <!-- Tombol Logout -->
+    <Button
+        android:id="@+id/btnLogout"
+        android:backgroundTint="@color/orange"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOGOUT" />
+
+
+</LinearLayout>
